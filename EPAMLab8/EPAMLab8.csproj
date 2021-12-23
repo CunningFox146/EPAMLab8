@@ -58,8 +58,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Tests.cs" />
+    <Compile Include="PageObjects\BasePageElement.cs" />
+    <Compile Include="PageObjects\BasePageObject.cs" />
+    <Compile Include="PageObjects\MainPage\MainPage.cs" />
+    <Compile Include="PageObjects\LoginPage\LoginPage.cs" />
+    <Compile Include="PageObjects\MainPage\OrderElement.cs" />
+    <Compile Include="PageObjects\MainPage\OrderType.cs" />
+    <Compile Include="Tests\TestsBase.cs" />
+    <Compile Include="Tests\Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\UIMap.cs" />
+    <Compile Include="Utils\WaitUtil.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
